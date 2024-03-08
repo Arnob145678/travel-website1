@@ -57,8 +57,10 @@ nav ul li a {
    
 }
 .menu{
-    font-size: 20px;
+    font-size: 14px;
     display: none;
+
+   
 }
 
 
@@ -516,7 +518,6 @@ main {
 
 
 /* responsive for small device */
-
 @media screen and (max-width: 600px) {
     body{
         width: 100%;
@@ -540,7 +541,7 @@ main {
     .banner-content{  
         
         position: absolute;
-        top: 40%;
+        top: 33%;
         left: 50%;
         transform: translate(-50%, -50%);
         
@@ -686,7 +687,7 @@ main {
         background-color:rgb(246, 244, 242);
         
         width: 80%;
-        height: 200px;
+        height: 240px;
         padding: 20px;
         border-radius: 8px;
         position: absolute;
@@ -694,8 +695,6 @@ main {
         left: 50%;
         transform: translate(-50%, -50%);
     }
-    .deals-card h3 ,p {
-        margin-bottom: 10px;
     .deals-img-2{
         position: relative;
     }
@@ -703,7 +702,7 @@ main {
         background-color:rgb(246, 244, 242);
         
         width: 80%;
-        height: 200px;
+        height: 240px;
         padding: 20px;
         border-radius: 8px;
         position: absolute;
@@ -718,7 +717,6 @@ main {
       
        width: 30%;
     }
-    
 
     nav ul li {
         display: none;
@@ -727,11 +725,14 @@ main {
         display: flex;
         margin-right: 5px;
         
+        
+    }
+    .fa-solid{
+        font-size: 25px;
     }
     nav{
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-}
 }
