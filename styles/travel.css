@@ -541,7 +541,7 @@ main {
     .banner-content{  
         
         position: absolute;
-        top: 33%;
+        top: 40%;
         left: 50%;
         transform: translate(-50%, -50%);
         
@@ -734,5 +734,11 @@ main {
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+    .footer-description,.description{
+        text-align: justify;
+    }
+    .banner-title{
+        margin-top: 180px;
     }
 }
